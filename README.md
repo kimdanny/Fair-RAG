@@ -1,8 +1,10 @@
 # Towards Fair RAG: On the Impact of Fair Ranking in Retrieval-Augmented Generation
 
 This is an official code repository for the implementation of experiments done in the paper, 
-[Towards Fair RAG: On the Impact of Fair Ranking in Retrieval-Augmented Generation]().
 
+[Towards Fair RAG: On the Impact of Fair Ranking in Retrieval-Augmented Generation](https://arxiv.org/abs/2409.11598).
+
+**Abstract**  
 Despite retrieval being a core component of RAG, much of the research in this area overlooks the extensive body of work on fair ranking, neglecting the importance of considering all stakeholders involved. This paper presents the first systematic evaluation of RAG systems integrated with fair rankings. We focus specifically on measuring the fair exposure of each relevant item across the rankings utilized by RAG systems (i.e., item-side fairness), aiming to promote equitable growth for relevant item providers. To gain a deep understanding of the relationship between item-fairness, ranking quality, and generation quality in the context of RAG, we analyze nine different RAG systems that incorporate fair rankings across seven distinct datasets. Our findings indicate that RAG systems with fair rankings can maintain a high level of generation quality and, in many cases, even outperform traditional RAG systems, despite the general trend of a tradeoff between ensuring fairness and maintaining system-effectiveness. We believe our insights lay the groundwork for responsible and equitable RAG systems and open new avenues for future research.
 
 
