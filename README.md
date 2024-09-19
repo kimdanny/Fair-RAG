@@ -12,7 +12,7 @@ Despite retrieval being a core component of RAG, much of the research in this ar
 ## Data
 We provide a filtered version of the LaMP dataset for fairness evaluation, along with item-level utility labels as detailed in the paper. The dataset includes three distinct utility-based test collections, each constructed based on a different generator model: Flan-T5 Small, Flan-T5 Base, and Flan-T5 XXL.
 
-The data has been filtered and annotated using the [LaMP dataset](https://github.com/LaMP-Benchmark/LaMP/tree/main/LaMP), which is available under the `CC-BY-NC-SA-4.0` license. All provided data can be found in the `data/` directory of this repository.
+The data has been filtered and annotated based on the [LaMP dataset](https://github.com/LaMP-Benchmark/LaMP/tree/main/LaMP), which is available under the `CC-BY-NC-SA-4.0` license. All provided data can be found in the `data/` directory of this repository.
 
 ### Data Generation Pipeline
 1. Place the [LaMP dataset](https://github.com/LaMP-Benchmark/LaMP/tree/main/LaMP) under `data/lamp`
