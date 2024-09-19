@@ -16,7 +16,7 @@ The data has been filtered and annotated based on the [LaMP dataset](https://git
 
 ### Data Generation Pipeline
 1. Place the [LaMP dataset](https://github.com/LaMP-Benchmark/LaMP/tree/main/LaMP) under `data/lamp`
-2. Run vanila LMs and augmented LMs and save the inference results
+2. Run vanilla LMs and augmented LMs and save the inference results
     - e.g., `python utility_labels/inference.py --model_name flanT5XXL --lamp_num 4`
     - redirect your system output to a `.log` file
 3. Evaluate the inference results
