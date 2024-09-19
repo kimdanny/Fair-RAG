@@ -1,0 +1,11 @@
+torch==2.1.2
+sentence-transformers==2.2.2
+transformers==4.36.2
+langchain==0.1.1
+langchain-community==0.0.13
+langchain-core==0.1.11
+faiss-cpu==1.7.4
+rouge==1.0.1
+evaluate==0.4.1
+mail-parser==3.15.0
+sparsembed==0.1.1
